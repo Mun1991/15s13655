@@ -1,0 +1,23 @@
+class Triangle {
+ double base, height, area;
+ 
+ public void assign(double b, double h) {
+ base = b;
+ height = h;
+ }
+ 
+ public double calcarea() {
+ area = 0.5 * base * height;
+ return area;
+ }
+}
+class Main {
+ public static void main(String[] args) {
+ Triangle tri = new Triangle(); // create object of Triangle class
+ tri.assign(3.0, 4.0); // assign values to base and height variables
+ double area = tri.calcarea(); // calculate area of triangle
+ System.out.println("Base of triangle = " + tri.base);
+ System.out.println("Height of triangle = " + tri.height);
+ System.out.println("Area of triangle = " + area);
+ }
+}
