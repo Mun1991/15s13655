@@ -1,9 +1,9 @@
 class Triangle {
  double base, height, area;
  
- public void assign(double b, double h) {
- base = b;
- height = h;
+ public void assign(double c, double h) {
+ base = c;
+ height = ;
  }
  
  public double calcarea() {
